@@ -88,7 +88,7 @@ function Hero() {
                     <div className="slidersec mb-5 pb-5">
                       <h4 className=" text_head_slidersec">{data.heading}</h4>
                       <p
-                        className="fs_xl fw-semibold ff_gilroy_semibold clr_slate_grey mx-auto "
+                        className="fs_xl fw-semibold ff_gilroy_semibold clr_slate_grey mx-auto fs_2x2l "
                         style={{ maxWidth: "286px", letterSpacing: "-4%" }}>
                         {data.peraGraph}
                       </p>
@@ -127,7 +127,7 @@ function Hero() {
                               {data.heading}
                             </h4>
                             <p
-                              className="custom_p_width_slider_secondfs_xl fw-semibold ff_gilroy_semibold clr_slate_grey mx-auto "
+                              className="custom_p_width_slider_secondfs_xl fw-semibold ff_gilroy_semibold clr_slate_grey mx-auto fs_2x2l px-5  px-md-4 "
                               style={{
                                 letterSpacing: "-4%",
                               }}>

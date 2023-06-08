@@ -6,7 +6,7 @@ function OurStandards() {
   return (
     <>
       {" "}
-      <section className=" py-5 my-5 position-relative z_index3">
+      <section className=" py-5 my-xl-5 my-lg-4 position-relative z_index3">
         {" "}
         <div className=" container">
           <div className="col-xxl-7 col-md-9 mb-5">

@@ -26,7 +26,7 @@ function App() {
             {/* <TakeControl /> */}
             <OurStandards />
             <InstantConnectivity />
-            {/* <OurProducts /> */}
+            <OurProducts />
           </div>
         </div>
       </div>

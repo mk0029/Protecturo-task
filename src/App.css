@@ -115,6 +115,9 @@
 .btn_store_Play__app_store {
   width: 120px;
 }
+.img_esim {
+  width: 319px;
+}
 @media (min-width: 576px) {
   .btn_store_Play__app_store {
     width: 190px;

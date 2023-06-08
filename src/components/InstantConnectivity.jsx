@@ -51,7 +51,7 @@ function InstantConnectivity() {
                   </div>
                 </div>
               </div>
-              <div className="col-12">
+              <div className="d-lg-none">
                 <img className="w-100" src={Pos_MobileImg_Instant} alt="" />
               </div>
             </div>

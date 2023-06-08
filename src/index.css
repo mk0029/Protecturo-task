@@ -33,7 +33,7 @@
 }
 
 .ff_gilroy_medium {
-  font-family: "gilroy-medium" !important;
+  font-family: "gilroy-medium";
 }
 
 .ff_gilroy_bold {
@@ -67,7 +67,7 @@
   --lh-2xl: 20px;
   --lh-2x2l: 22px;
   --lh-2x4l: 24px;
-  --lh-7x5l: 34px;
+  --lh-7x5l: 130%;
   --LETTER-SPACING-2: -0.02em;
   --LETTER-SPACING-4: -0.04em;
   /*  */
