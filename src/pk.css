@@ -1,0 +1,11 @@
+.features_box_shadow {
+  box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.5);
+}
+.features_box_shadow:hover {
+  box-shadow: 0px 0px 36px -6px #d41700;
+}
+.pos_layer_red_Feature {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
