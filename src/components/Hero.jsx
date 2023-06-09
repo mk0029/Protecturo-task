@@ -69,24 +69,22 @@ function Hero() {
   const myref = useRef();
   return (
     <>
-      <section className=" py-5 my-xxl-5  position-relative">
-        <div className=" Layer_red_Common Hero_layer_red_pos z_index0"></div>
-        <div className=" Layer_red_Common Hero_layer_red_pos2 z_index0 position-absolute"></div>
+      <section className=" py-md-5 py-4 my-xxl-5  position-relative">
+        <div className="Layer_red_Common Hero_layer_red_pos z_index-1"></div>
+        <div className="Layer_red_Common Hero_layer_red_pos2 z_index-1 position-absolute"></div>
         <img
           src={Game__logo}
           alt=""
-          className="game__logo position-absolute"></img>
+          className="game__logo position-absolute opacity-50"></img>
 
-        <div className=" container position-relative z_index1">
-          {" "}
+        <div className="container position-relative z_index1">
           <div className="box_mob z_index3 d-flex justify-content-end flex-column align-items-center text-center py-5 position-absolute d-xl-flex d-none">
             <Slider ref={myref} className="w-100 mb-5" {...settingSlide2}>
               {SliderSecondHero.map((data) => {
                 return (
                   <div className="d-flex flex-column justify-content-center text-center   ">
-                    {" "}
                     <div className="slidersec mb-5 pb-5">
-                      <h4 className=" text_head_slidersec">{data.heading}</h4>
+                      <h4 className="text_head_slidersec">{data.heading}</h4>
                       <p
                         className="fs_xl fw-semibold ff_gilroy_semibold clr_slate_grey mx-auto fs_2x2l "
                         style={{ maxWidth: "286px", letterSpacing: "-4%" }}>
@@ -106,7 +104,7 @@ function Hero() {
                 </h1>
                 <p
                   style={{ maxWidth: "648px", lineHeight: "175%" }}
-                  className=" peragraph_common mt-lg-5 mt-4">
+                  className="peragraph_common mt-lg-5 mt-sm-4 ">
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                   irure dolor in reprehenderit in voluptate velit esse cillum
@@ -115,15 +113,14 @@ function Hero() {
               </div>
             </div>
             <div className="mt_Custom">
-              <div className="">
-                <div className="box_mob box_mob_Small mx-auto ms-sm-auto me-sm-0 z_index3_sm position-relative d-flex justify-content-center px-sm-0 px-1 justify-content-sm-end flex-column align-items-center text-center py-5 d-xl-none">
+              <div>
+                <div className="box_mob box_mob_Small mx-auto ms-md-auto me-md-0 z_index3_sm position-relative d-flex justify-content-center px-sm-0 px-1 justify-content-sm-end flex-column align-items-center text-center py-5 d-xl-none">
                   <Slider ref={myref} className="w-100" {...settingSlide2}>
                     {SliderSecondHero.map((data) => {
                       return (
                         <div className="d-flex flex-column justify-content-center text-center  ">
-                          {" "}
                           <div className="slidersec mb-5 pb-5">
-                            <h4 className=" text_head_slidersec">
+                            <h4 className="text_head_slidersec">
                               {data.heading}
                             </h4>
                             <p
@@ -140,8 +137,7 @@ function Hero() {
                   </Slider>
                 </div>
                 <div className="Slider_mt_nagitive">
-                  {" "}
-                  <div className="btnbox mb-3 d-flex justify-content-center justify-content-sm-start gap-3">
+                  <div className="btnbox mb-3 d-flex position-relative z_index5 justify-content-center justify-content-sm-start gap-3">
                     <img
                       className="transition300"
                       onClick={() => myref?.current?.slickPrev()}
@@ -157,7 +153,7 @@ function Hero() {
                     />
                   </div>
                   <Slider
-                    className=" position-relative z_index0"
+                    className="position-relative z_index0"
                     ref={myref}
                     {...settings}>
                     {SliderHero.map((data) => {
@@ -167,7 +163,7 @@ function Hero() {
                             <div className="d-flex flex-column h-100 justify-content-between p-4  ">
                               <h2
                                 style={{ maxWidth: "109px" }}
-                                className=" text-wrap clr_white fs_xl fw-semibold ff_gilroy_semibold">
+                                className="text-wrap clr_white fs_xl fw-semibold ff_gilroy_semibold">
                                 {data.heading}
                               </h2>
                               <div className="d-flex justify-content-end">
@@ -182,7 +178,7 @@ function Hero() {
                         </div>
                       );
                     })}
-                  </Slider>{" "}
+                  </Slider>
                 </div>
               </div>
             </div>
@@ -194,4 +190,3 @@ function Hero() {
 }
 
 export default Hero;
-// myref.

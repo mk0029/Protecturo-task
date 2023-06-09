@@ -5,13 +5,11 @@ import dotz from "../assets/img/svg/OurStandredDotz.svg";
 function OurStandards() {
   return (
     <>
-      {" "}
-      <section className=" py-5 my-xl-5 my-lg-4 position-relative z_index3">
-        {" "}
-        <div className=" container">
+      <section className=" py-md-5 py-4 my-xl-5 my-lg-4 position-relative z_index3">
+        <div className="container">
           <div className="col-xxl-7 col-md-9 mb-5">
             <h4 className="text_red_grident">Our standards</h4>
-            <h2 style={{ color: "#E1E1E1" }} className=" Heading_main">
+            <h2 style={{ color: "#E1E1E1" }} className="Heading_main">
               <span className="d-md-block"> Privacy standards</span> not seen
               before in telecom
             </h2>
@@ -33,25 +31,25 @@ function OurStandards() {
               />
               <div className="d-flex justify-content-end flex-column h-100 py-1 z_index2 position-relative mt-4 mt-lg-0">
                 <h3
-                  className=" ff_gilroy_bold fw-bold fs_5x6l "
+                  className="ff_gilroy_bold fw-bold fs_5x6l "
                   style={{ maxWidth: "411px", color: " #E1E1E1" }}>
                   Get started with Protecturo
                 </h3>
-                <p className=" ff_gilroy_medium fw-medium fs_md clr_grey lh_24 mb-lg-4">
+                <p className="ff_gilroy_medium fw-medium fs_md clr_grey lh_24 mb-lg-4">
                   At vero eos et accusamus et iusto odio dignissimos ducimus qui
                   blanditiis praesentium voluptatum deleniti atque corrupti quos
                   dolores et quas molestias excepturi sint occaecati cupiditate
                   non provident.
                 </p>
-                <p className=" ff_gilroy_medium fw-medium fs_md clr_grey lh_24">
+                <p className="ff_gilroy_medium fw-medium fs_md clr_grey lh_24">
                   Your personal information is 100% safe with us, because we do
                   not require any personal information besides email. Of course
                   no contracts, no credit checks and no fine prints. To protect
                   your privacy online, our data plans come with a Privacy IP
                   address.
                 </p>
-                <span className=" d-inline-block mt-xxl-5 mt-4">
-                  <a className=" btn_common d-inline-block" href="">
+                <span className="d-inline-block mt-xxl-5 mt-4">
+                  <a className="btn_common d-inline-block" href="">
                     Get started
                   </a>
                 </span>
