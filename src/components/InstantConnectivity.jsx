@@ -6,7 +6,7 @@ import Pos_MobileImg_Instant from "../assets/img/png/A__boy_with_ssmartphone.png
 function InstantConnectivity() {
   return (
     <>
-      <section className="py-md-5 py-4 my-lg-5 position-relative">
+      <section className="py-md-5 py-4 my-lg-5 position-relative" id="app">
         <img
           src=""
           alt=""

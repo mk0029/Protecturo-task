@@ -17,7 +17,7 @@ function TakeControl() {
   const myBtn = useRef();
   return (
     <>
-      <section className="py-md-5 py-4 my-xxl-5">
+      <section className="py-md-5 py-4 my-xxl-5" id="benefits">
         <div className="container">
           <div className="row flex-column-reverse flex-lg-row justify-content-lg-between justify-content-center align-items-center z_index1 position-relative">
             <div className="col-lg-4 col-sm-8 mt-5 mt-lg-0">

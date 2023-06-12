@@ -5,7 +5,9 @@ import { best } from "../Pagejs/DataMAp";
 function Features() {
   return (
     <>
-      <section className="py-md-5 py-4 position-relative mb-xl-5 mb-4">
+      <section
+        className="py-md-5 py-4 position-relative mb-xl-5 mb-4"
+        id="Features">
         <div className="Layer_red_Common position-absolute pos_layer_red_Feature z_index0"></div>
         <div className="container z_index2 position-relative mb-xx-5 mb-lg-4 mt-xxl-5">
           <h6 className="text_red_grident">Features</h6>

@@ -20,7 +20,7 @@ function NavBar() {
           <div className="d-flex">
             <ul className="d-flex align-items-center gap-xxl-5 gap-4 mb-0 d-none d-xl-flex pe-xxl-5 me-xl-3">
               <li>
-                <a className="Nav_links_common d-inline-block" href="#">
+                <a className="Nav_links_common d-inline-block" href="#benefits">
                   Benefits
                 </a>
               </li>
@@ -30,22 +30,22 @@ function NavBar() {
                 </a>
               </li>
               <li>
-                <a className="Nav_links_common d-inline-block" href="#">
+                <a className="Nav_links_common d-inline-block" href="#Products">
                   Products
                 </a>
               </li>
               <li>
-                <a className="Nav_links_common d-inline-block" href="#">
+                <a className="Nav_links_common d-inline-block" href="#app">
                   App
                 </a>
               </li>
               <li>
-                <a className="Nav_links_common d-inline-block" href="#">
+                <a className="Nav_links_common d-inline-block" href="#Features">
                   Features
                 </a>
               </li>
               <li>
-                <a className="Nav_links_common d-inline-block" href="#">
+                <a className="Nav_links_common d-inline-block" href="#FAQ">
                   FAQs
                 </a>
               </li>
@@ -84,39 +84,59 @@ function NavBar() {
             }`}>
             <ul className="d-flex flex-column align-items-center justify-content-center gap-xxl-5 gap-4 mb-0 ">
               <li>
-                <a className="Nav_links_common d-inline-block" href="#">
+                <a
+                  onClick={() => setNav(!nav)}
+                  className="Nav_links_common d-inline-block"
+                  href="#benefits">
                   Benefits
                 </a>
               </li>
               <li>
-                <a className="Nav_links_common d-inline-block" href="#">
+                <a
+                  onClick={() => setNav(!nav)}
+                  className="Nav_links_common d-inline-block"
+                  href="#">
                   Privacy
                 </a>
               </li>
               <li>
-                <a className="Nav_links_common d-inline-block" href="#">
+                <a
+                  onClick={() => setNav(!nav)}
+                  className="Nav_links_common d-inline-block"
+                  href="#Products">
                   Products
                 </a>
               </li>
               <li>
-                <a className="Nav_links_common d-inline-block" href="#">
+                <a
+                  onClick={() => setNav(!nav)}
+                  className="Nav_links_common d-inline-block"
+                  href="#app">
                   App
                 </a>
               </li>
               <li>
-                <a className="Nav_links_common d-inline-block" href="#">
+                <a
+                  onClick={() => setNav(!nav)}
+                  className="Nav_links_common d-inline-block"
+                  href="#Features">
                   Features
                 </a>
               </li>
               <li>
                 <a
-                  className="me-xxl-4 Nav_links_common d-inline-block"
-                  href="#">
+                  onClick={() => setNav(!nav)}
+                  className="Nav_links_common d-inline-block"
+                  href="#FAQ">
                   FAQs
                 </a>
               </li>
+
               <li>
-                <a className=" d-inline-block btn_common " href="#">
+                <a
+                  onClick={() => setNav(!nav)}
+                  className=" d-inline-block btn_common "
+                  href="#">
                   Get started
                 </a>
               </li>

@@ -5,7 +5,9 @@ import Alow_SideLOgo from "../assets/img/svg/Alow_Side_logo.svg";
 function OurProducts() {
   return (
     <>
-      <section className="py-md-5 py-4 my-lg-4 my-xl-5 mt-4 position-relative">
+      <section
+        className="py-md-5 py-4 my-lg-4 my-xl-5 mt-4 position-relative"
+        id="Products">
         <div className="Layer_red_Common layer_red_Prod"></div>
         <img
           className="position-absolute About_Side_img"
