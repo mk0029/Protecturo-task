@@ -5,7 +5,7 @@ import dotz from "../assets/img/svg/OurStandredDotz.svg";
 function OurStandards() {
   return (
     <>
-      <section className=" py-md-5 py-4 my-xl-5 my-lg-4 position-relative z_index3">
+      <section className=" py-md-5 py-4 my-xxl-5  position-relative z_index3">
         <div className="container">
           <div className="col-xxl-7 col-md-9 mb-5">
             <h4 className="text_red_grident">Our standards</h4>

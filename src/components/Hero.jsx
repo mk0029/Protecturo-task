@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Slidewrbtn from "../assets/img/svg/Slider_Backbtn.svg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -7,6 +7,8 @@ import { SliderHero } from "../Pagejs/DataMAp";
 import { SliderSecondHero } from "../Pagejs/DataMAp";
 import Game__logo from "../assets/img/png/GameLogo__Hero.png";
 function Hero() {
+  const [sliderBg, setSliderBg] = useState("");
+
   const settings = {
     dots: true,
     infinite: true,
@@ -140,7 +142,9 @@ function Hero() {
                   <div className="btnbox mb-3 d-flex position-relative z_index5 justify-content-center justify-content-sm-start gap-3">
                     <img
                       className="transition300"
-                      onClick={() => myref?.current?.slickPrev()}
+                      onClick={() => {
+                        myref?.current?.slickPrev();
+                      }}
                       src={Slidewrbtn}
                       alt=""
                     />
@@ -159,11 +163,23 @@ function Hero() {
                     {SliderHero.map((data) => {
                       return (
                         <div className="pe-1 d-flex justify-content-center">
-                          <div className="box_slider_hero ">
+                          <div
+                            onClick={() => {
+                              setSliderBg(data.slidecount);
+                            }}
+                            className={`box_slider_hero ${
+                              sliderBg === data.slidecount
+                                ? "SliderBoxActive"
+                                : ""
+                            } `}>
                             <div className="d-flex flex-column h-100 justify-content-between p-4  ">
                               <h2
                                 style={{ maxWidth: "109px" }}
-                                className="text-wrap clr_white fs_xl fw-semibold ff_gilroy_semibold">
+                                className={`text-wrap   fs_xl fw-semibold ff_gilroy_semibold ${
+                                  sliderBg === data.slidecount
+                                    ? "clr_white"
+                                    : "clr_grey"
+                                }`}>
                                 {data.heading}
                               </h2>
                               <div className="d-flex justify-content-end">

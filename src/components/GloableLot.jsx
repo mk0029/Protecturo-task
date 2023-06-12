@@ -4,7 +4,10 @@ import Pos_MobileImg_Instant from "../assets/img/png/GlobleLot.png";
 function GloableLot() {
   return (
     <>
-      <section style={{ backgroundColor: "#121212" }}>
+      <section
+        className=" position-relative"
+        style={{ backgroundColor: "#121212" }}>
+        <div className=" Layer_red_Common layerred_commn_globerlot"></div>
         <div className="container">
           <div className="pt-5 pt-xxl-5 pt-xl-4 -xl-4  px-xl-5 px-md-4 px-3  position-relative">
             <img

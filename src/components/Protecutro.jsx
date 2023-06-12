@@ -26,8 +26,12 @@ function Protecutro() {
                   together.
                 </p>
                 <div className="row justify-content-between">
-                  <div className="col-md-5 col-sm-6 mt-md-5 mt-4">
-                    <img className="mb-3" src={Proticutro1} alt="" />
+                  <div className="col-md-5 col-sm-6 mt-md-5 Animate_hover_Parent p-xxl-3 p-2 mt-3">
+                    <img
+                      className="mb-3 Img_Aimate_hover"
+                      src={Proticutro1}
+                      alt=""
+                    />
                     <h3 className="ff_gilroy-semibold fs_2x4l text-white mb-0">
                       Stay connected
                     </h3>
@@ -38,8 +42,12 @@ function Protecutro() {
                     </p>
                   </div>
 
-                  <div className="col-md-5 col-sm-6 mt-md-5 mt-4">
-                    <img className="mb-3" src={Proticutro2} alt="" />
+                  <div className="col-md-5 col-sm-6 mt-md-5 Animate_hover_Parent p-xxl-3 p-2 mt-3">
+                    <img
+                      className="mb-3 Img_Aimate_hover"
+                      src={Proticutro2}
+                      alt=""
+                    />
                     <h3 className="ff_gilroy-semibold fs_2x4l text-white mb-0">
                       International
                     </h3>
@@ -50,8 +58,12 @@ function Protecutro() {
                     </p>
                   </div>
 
-                  <div className="col-md-5 col-sm-6 mt-md-5 mt-4">
-                    <img className="mb-3" src={Proticutro3} alt="" />
+                  <div className="col-md-5 col-sm-6 mt-md-5 Animate_hover_Parent p-xxl-3 p-2 mt-3">
+                    <img
+                      className="mb-3 Img_Aimate_hover"
+                      src={Proticutro3}
+                      alt=""
+                    />
                     <h3 className="ff_gilroy-semibold fs_2x4l text-white mb-0">
                       Ease to get
                     </h3>
@@ -61,8 +73,12 @@ function Protecutro() {
                     </p>
                   </div>
 
-                  <div className="col-md-5 col-sm-6 mt-md-5 mt-4">
-                    <img className="mb-3" src={Proticutro4} alt="" />
+                  <div className="col-md-5 col-sm-6 mt-md-5 Animate_hover_Parent p-xxl-3 p-2 mt-3">
+                    <img
+                      className="mb-3 Img_Aimate_hover"
+                      src={Proticutro4}
+                      alt=""
+                    />
                     <h3 className="ff_gilroy-semibold fs_2x4l text-white mb-0">
                       Data plans
                     </h3>

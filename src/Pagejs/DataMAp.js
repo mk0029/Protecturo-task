@@ -8,42 +8,42 @@ export const SliderHero = [
   {
     heading: "Secur payments",
     ArrowImg: SliderView,
-    brokenHead: "",
+    slidecount: "1",
   },
   {
     heading: "Operational securities",
     ArrowImg: SliderView,
-    brokenHead: "",
+    slidecount: "2",
   },
   {
     heading: "Secure data networks",
     ArrowImg: SliderView,
-    brokenHead: "",
+    slidecount: "3",
   },
   {
     heading: "Encrypted transactions",
     ArrowImg: SliderView,
-    brokenHead: "",
+    slidecount: "4",
   },
   {
     heading: "Securepayments",
     ArrowImg: SliderView,
-    brokenHead: "",
+    slidecount: "5",
   },
   {
     heading: "Securepayments",
     ArrowImg: SliderView,
-    brokenHead: "",
+    slidecount: "6",
   },
   {
     heading: "Securepayments",
     ArrowImg: SliderView,
-    brokenHead: "",
+    slidecount: "7",
   },
   {
     heading: "Securepayments",
     ArrowImg: SliderView,
-    brokenHead: "",
+    slidecount: "8",
   },
 ];
 

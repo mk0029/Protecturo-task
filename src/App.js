@@ -24,7 +24,7 @@ function App() {
             src={Game__logo2}
             alt=""
             className="position-absolute top-0 start-0"></img>
-          <div className="z_index10 position-relative">
+          <div className="z_index4 position-relative">
             <NavBar />
           </div>
           <div className="d-flex flex-grow-1 flex-column position-relative z_index1">

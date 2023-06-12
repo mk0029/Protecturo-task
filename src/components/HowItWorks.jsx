@@ -45,10 +45,10 @@ function HowItWorks() {
                   Learn how does
                   <span className="d-lg-block">international eSIM work</span>
                 </h2>
-                <div className="row justify-content-between mt-4 mt-sm-0">
+                <div className="row justify-content-between mt-4 mt-sm-0 Animate_hover_Parent_Second">
                   <div className="col-sm-3 custom_margin_110 position-relative">
                     <img
-                      className="position-absolute  ImageZpos d-none d-sm-flex"
+                      className="position-absolute  ImageZpos Img_Aimate_hover d-none d-sm-flex"
                       src={line}
                       alt="img"
                     />
@@ -63,7 +63,7 @@ function HowItWorks() {
                   </div>
                   <div className="col-sm-3 mt-md-5 mt-4 position-relative">
                     <img
-                      className="position-absolute  ImageZpos2 d-none d-sm-flex"
+                      className="position-absolute  ImageZpos2 Img_Aimate_hover d-none d-sm-flex"
                       src={line}
                       alt="img"
                     />
@@ -78,7 +78,11 @@ function HowItWorks() {
                   <div className="col-sm-3 custom_margin_110 mt-4 mt-sm-0 d-flex  ">
                     <div className="d-flex flex-column justify-content-end h-100">
                       <span>
-                        <img className="mb-sm-4 mb-2" src={squar} alt="img" />
+                        <img
+                          className="mb-sm-4 mb-2 Img_Aimate_hover"
+                          src={squar}
+                          alt="img"
+                        />
                       </span>
                       <h3 className="ff_gilroy_semibold fs_2x4l text-white mb-0">
                         Install the QR

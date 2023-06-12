@@ -12,7 +12,7 @@ function NavBar() {
 
   return (
     <>
-      <section className="container">
+      <section className="container position-relative z_index4">
         <nav className="d-flex justify-content-between align-items-center pt-4 mt-lg-3">
           <span>
             <img src={logo} alt="err" className="logopage" />

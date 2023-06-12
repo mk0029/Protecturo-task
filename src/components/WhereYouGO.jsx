@@ -4,7 +4,7 @@ import vector from "../assets/img/svg/overlay.png";
 function WhereYouGO() {
   return (
     <>
-      <section className="py-md-5 py-4">
+      <section className="py-md-5 py-4 mb-xxl-5 mb-lg-4">
         <div className="container ">
           <div className="red_box py-lg-5 py-4 px-4 d-flex flex-column align-items-center position-relative overflow-hidden">
             <img

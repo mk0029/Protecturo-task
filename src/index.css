@@ -187,8 +187,9 @@ body {
   );
   transform: rotateZ(60deg) translate(-1em, -6em);
   left: 0;
-  animation: Shine 0.3s linear 0s 2 alternate;
+  animation: Shine 0.2s linear 0s 2 alternate;
 }
+
 .btn_store_Play__app_store {
   position: relative;
   cursor: pointer;

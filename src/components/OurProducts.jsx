@@ -13,13 +13,13 @@ function OurProducts() {
           alt=""
         />
         <div className="container position-relative z_index1">
-          <div className="col-xxl-10 mx-auto">
+          <div className="col-xxl-11 mx-auto">
             <div className="col-xl-8 col-lg-10 mx-auto ">
               <h3 className="text_red_grident text-center">Our products</h3>
 
               <h2
                 style={{ color: "#e1e1e1" }}
-                className="ff_gilroy_bold fw-bold fs_6x5l text-center pb-md-4 pb-2 mt-2">
+                className="ff_gilroy_bold fw-bold fs_6x5l text-center pb-md-5 mb-xxl-4 pb-2 mt-2">
                 Allow us to secure your data with Protecturo’s products
               </h2>
             </div>
