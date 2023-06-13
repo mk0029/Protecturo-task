@@ -9,16 +9,16 @@ function InstantConnectivity() {
       <section className="py-md-5 py-4 my-lg-5 position-relative" id="app">
         <img
           src=""
-          alt=""
+          alt="Err"
           className="layer_Instent_red Layer_red_Common position-absolute z_index0"
         />
         <div className="container position-relative z_index1">
           <div
             style={{ backgroundColor: "#121212" }}
-            className=" pt-5 pb-xl-5 px-xxl-5 px-md-4 px-3  position-relative">
+            className="pt-md-5 pt-4 pb-xl-5 px-xxl-5 px-md-4 px-3 position-relative">
             <img
               src={Pos_MobileImg_Instant}
-              alt=""
+              alt="Err"
               className="Pos_MobileImg_Instant d-xl-flex d-none position-absolute bottom-0 end-0 "
             />
             <div className="row">
@@ -33,29 +33,29 @@ function InstantConnectivity() {
                     The ideal for the 21st century roadwarrior. The Protecturo
                     app lets you to grab a single data plan where and when you
                     want - at home or in any of our 190+ destinations. Select a
-                    plan from the app, download an
-                    <span className=" fw-bold ff_gilroy_bold fs_2x2l text_red_grident">
+                    plan from the app, download an&nbsp;
+                    <span className="fw-bold ff_gilroy_bold fs_2x2l text_red_grident">
                       eSIM
                     </span>
                     , and you'll connect on the spot, on physical SIM card
                     required.
                   </p>
-                  <div className="d-flex justify-content-center justify-content-md-start gap-3 gap-md-4 mt-xl-5 mt-4  ">
+                  <div className="d-flex justify-content-center justify-content-md-start gap-3 gap-md-4 mt-xl-5 mt-4 ">
                     <img
                       className="btn_store_Play__app_store d-inline-block transition300"
                       src={BtnPlayStore}
-                      alt=""
+                      alt="Err"
                     />
                     <img
                       className="btn_store_Play__app_store d-inline-block transition300"
                       src={BtnAppStore}
-                      alt=""
+                      alt="Err"
                     />
                   </div>
                 </div>
               </div>
-              <div className="d-lg-none">
-                <img className="w-100" src={Pos_MobileImg_Instant} alt="" />
+              <div className="d-flex justify-content-center d-xl-none ">
+                <img className="w-75" src={Pos_MobileImg_Instant} alt="Err" />
               </div>
             </div>
           </div>

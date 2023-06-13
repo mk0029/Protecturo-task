@@ -17,11 +17,11 @@ function TakeControl() {
   const myBtn = useRef();
   return (
     <>
-      <section className="py-md-5 py-4 my-xxl-5" id="benefits">
-        <div className="container">
+      <section className="py-5 margin_top_nagitive_takeControl  " id="benefits">
+        <div className="container py-xxl-5 my-xl-5">
           <div className="row flex-column-reverse flex-lg-row justify-content-lg-between justify-content-center align-items-center z_index1 position-relative">
             <div className="col-lg-4 col-sm-8 mt-5 mt-lg-0">
-              <div className="mobile_header z_index_5 d-flex justify-content-end flex-column align-items-center text-center position-relative">
+              <div className="mobile_header pe-xl-4 z_index_5 d-flex justify-content-end flex-column align-items-center text-center position-relative">
                 <img
                   className="width_custom_mobile_img"
                   src={mobileImg}
@@ -191,14 +191,14 @@ function TakeControl() {
                 </Slider>
               </div>
             </div>
-            <div className="col-xl-7 col-lg-8">
+            <div className="col-xl-8 ps-lg-4 ps-xxl-5 col-lg-8">
               <div className="d-flex flex-column justify-content-center h-100">
                 <p className="text_red_grident">Our benefits</p>
                 <h2 className="ff_gilroy_bold fs_5x6l  text-white mb-0">
                   Take control of
                   <span className="d-lg-block">your cellular connectivity</span>
                 </h2>
-                <p className=" ff_gilroy_medium fs_2x2l clr_grey pt-md-4 pt-2 mb-0">
+                <p className="ff_gilroy_medium fs_2x2l clr_grey pt-md-4 pt-2 mb-0">
                   Your creativity is endless. Your IoT project shouldn't be held
                   back by cellular connectivity. Let's build a new unicorn
                   together.

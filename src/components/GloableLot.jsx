@@ -5,14 +5,14 @@ function GloableLot() {
   return (
     <>
       <section
-        className=" position-relative"
+        className="position-relative"
         style={{ backgroundColor: "#121212" }}>
-        <div className=" Layer_red_Common layerred_commn_globerlot"></div>
+        <div className="Layer_red_Common layerred_commn_globerlot"></div>
         <div className="container">
-          <div className="pt-5 pt-xxl-5 pt-xl-4 -xl-4  px-xl-5 px-md-4 px-3  position-relative">
+          <div className=" pt-xxl-5 pt-4 -xl-4 px-xl-5 px-md-4 px-3 position-relative">
             <img
               src={Pos_MobileImg_Instant}
-              alt=""
+              alt="Err"
               className="Pos_MobileImg_GLoblelot d-lg-flex d-none position-absolute bottom-0 end-0 "
             />
             <div className="row">
@@ -40,7 +40,7 @@ function GloableLot() {
                 <img
                   style={{ width: "90%" }}
                   src={Pos_MobileImg_Instant}
-                  alt=""
+                  alt="Err"
                 />
               </div>
             </div>

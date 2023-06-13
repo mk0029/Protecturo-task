@@ -4,27 +4,28 @@ import logo from "../assets/img/svg/logo.svg";
 function Footer() {
   return (
     <>
-      <section
-        id="footer"
-        className="pt-md-5 py-4 position-relative overflow-hidden">
+      <section id="footer" className="pt-5  position-relative overflow-hidden">
         <span className="Layer_red_Common Footer_layer_1 position-absolute top-100 start-0 translate-middle ms-5 z_index0"></span>
         <span className="Layer_red_Common Footer_layer_2 position-absolute bottom-100 start-100 translate-middle-x mb-5 ms-5 z_index0"></span>
 
-        <div className="container pt-5 z_index2 position-relative">
+        <div className="container pt-lg-5 z_index2 position-relative">
           <div className="row">
             <div className="col-lg-4">
               <div>
                 <a href="#">
-                  <img src={logo} alt="img" />
+                  <img className="logo_Footer" src={logo} alt="img" />
                 </a>
-                <p className="ff_gilroy-medium fs_sm clr_grey mb-0 mt-4 pt-3">
+
+                <p className="ff_gilroy_medium   fs_sm clr_grey mb-0 mt-4 pt-md-3">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nis commodo consequat.
                 </p>
-                <span className="mt-lg-5 mt-4 pt-md-3 d-flex gap-4">
-                  <a href="#">
+                <span className="mt-4 pt-lg-3 d-flex gap-4">
+                  <a
+                    className=" animate__animated  animate__slow animate__jello animate__infinite"
+                    href="#">
                     <svg
                       className="footer_svg position-relative"
                       width="32"
@@ -39,7 +40,9 @@ function Footer() {
                       />
                     </svg>
                   </a>
-                  <a href="#">
+                  <a
+                    className=" animate__animated  animate__slow animate__jello  animate__infinite"
+                    href="#">
                     <svg
                       className="footer_svg position-relative"
                       width="32"
@@ -54,7 +57,9 @@ function Footer() {
                       />
                     </svg>
                   </a>
-                  <a href="#">
+                  <a
+                    className=" animate__animated  animate__slow animate__jello  animate__infinite"
+                    href="#">
                     <svg
                       className="footer_svg position-relative"
                       width="32"
@@ -89,7 +94,9 @@ function Footer() {
                       </defs>
                     </svg>
                   </a>
-                  <a href="#">
+                  <a
+                    className=" animate__animated  animate__slow animate__jello  animate__infinite"
+                    href="#">
                     <svg
                       className="footer_svg position-relative"
                       width="32"
@@ -125,10 +132,10 @@ function Footer() {
                   <h2 className="ff_gilroy-bold fs_2x4l text-white">
                     Products
                   </h2>
-                  <div className="d-flex flex-column gap-3 mt-4">
-                    <span>
+                  <div className="d-flex flex-column gap-md-3 gap-2 mt-4">
+                    <span className="animated infinite bounce d-inline-block">
                       <a
-                        className="ff_gilroy_semibold footer_common fs_sm clr_grey"
+                        className="ff_gilroy_semibold footer_common fs_sm clr_grey "
                         href="#">
                         eSIM SIM
                       </a>
@@ -151,7 +158,7 @@ function Footer() {
                 </div>
                 <div className="col-sm-3 col-5">
                   <h2 className="ff_gilroy-bold fs_2x4l text-white">Company</h2>
-                  <div className="d-flex flex-column gap-3 mt-4">
+                  <div className="d-flex flex-column gap-md-3 gap-2 mt-4">
                     <span>
                       <a
                         className="ff_gilroy_semibold footer_common fs_sm clr_grey"
@@ -193,7 +200,7 @@ function Footer() {
                   <h2 className="ff_gilroy-bold fs_2x4l text-white">
                     Resources
                   </h2>
-                  <div className="d-flex flex-column gap-3 mt-4">
+                  <div className="d-flex flex-column gap-md-3 gap-2 mt-4">
                     <span>
                       <a
                         className="ff_gilroy_semibold footer_common fs_sm clr_grey"
@@ -236,7 +243,7 @@ function Footer() {
                   <h2 className="ff_gilroy-bold fs_2x4l text-white">
                     My Account
                   </h2>
-                  <div className="d-flex flex-column gap-3 mt-4">
+                  <div className="d-flex flex-column gap-md-3 gap-2 mt-4">
                     <span>
                       <a
                         className="ff_gilroy_semibold footer_common fs_sm clr_grey"
@@ -277,16 +284,16 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className=" d-flex flex-column flex-md-row justify-content-between mt-5 pt-xl-5">
-            <p className=" ff_gilroy_medium fs_sm clr_grey">
+          <div className="d-flex flex-column flex-md-row justify-content-between mt-5 pt-xl-5">
+            <p className="ff_gilroy_medium fs_sm clr_grey">
               © 2022 Protecturo, All rights reserved.{" "}
             </p>
-            <p className="d-flex gap-3 cursor_pointer">
+            <p className="d-flex justify-content-between gap-md-3 gap-2 cursor_pointer">
               {" "}
-              <p className=" ff_gilroy_medium fs_sm clr_grey cursor_pointer">
+              <p className="ff_gilroy_medium fs_sm clr_grey cursor_pointer">
                 Privacy Policy{" "}
               </p>
-              <p className=" ff_gilroy_medium fs_sm clr_grey cursor_pointer">
+              <p className="ff_gilroy_medium fs_sm clr_grey cursor_pointer">
                 {" "}
                 Terms & Conditions
               </p>

@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import "animate.css";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import OurStandards from "./components/OurStandards";
@@ -22,7 +23,7 @@ function App() {
         <div className="min_vh_100 d-flex flex-column position-relative z_index0">
           <img
             src={Game__logo2}
-            alt=""
+            alt="Err"
             className="position-absolute top-0 start-0"></img>
           <div className="z_index4 position-relative">
             <NavBar />
@@ -33,7 +34,8 @@ function App() {
             <OurStandards />
             <InstantConnectivity />
             <OurProducts />
-            <Protecutro /> <HowItWorks />
+            <Protecutro />
+            <HowItWorks />
             <Features />
             <WhereYouGO />
             <Faq />

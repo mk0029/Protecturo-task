@@ -52,7 +52,7 @@ function NavBar() {
             </ul>
 
             <div className="d-lg-flex d-none">
-              <a className=" d-inline-block btn_common " href="#">
+              <a className="d-inline-block btn_common " href="#">
                 Get started
               </a>
             </div>
@@ -82,7 +82,7 @@ function NavBar() {
             className={`d-xl-none position-fixed h-100 w-100 Nav_mobile d-flex flex-column align-items-center justify-content-center ${
               nav ? "ShowNav" : "HideNav"
             }`}>
-            <ul className="d-flex flex-column align-items-center justify-content-center gap-xxl-5 gap-4 mb-0 ">
+            <ul className="d-flex flex-column align-items-center justify-content-center gap-xxl-5 gap-4 mb-0 p-0 ">
               <li>
                 <a
                   onClick={() => setNav(!nav)}
@@ -135,7 +135,7 @@ function NavBar() {
               <li>
                 <a
                   onClick={() => setNav(!nav)}
-                  className=" d-inline-block btn_common "
+                  className="d-inline-block btn_common "
                   href="#">
                   Get started
                 </a>

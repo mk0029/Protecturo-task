@@ -2,12 +2,14 @@ import React, { useRef, useState } from "react";
 import Slidewrbtn from "../assets/img/svg/Slider_Backbtn.svg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { gsap } from "gsap";
+
 import Slider from "react-slick";
 import { SliderHero } from "../Pagejs/DataMAp";
 import { SliderSecondHero } from "../Pagejs/DataMAp";
 import Game__logo from "../assets/img/png/GameLogo__Hero.png";
 function Hero() {
-  const [sliderBg, setSliderBg] = useState("");
+  const [sliderBg, setSliderBg] = useState("1");
 
   const settings = {
     dots: true,
@@ -71,20 +73,20 @@ function Hero() {
   const myref = useRef();
   return (
     <>
-      <section className=" py-md-5 py-4 my-xxl-5  position-relative">
+      <section className="py-md-5 py-4 my-xl-5 position-relative mb-4">
         <div className="Layer_red_Common Hero_layer_red_pos z_index-1"></div>
         <div className="Layer_red_Common Hero_layer_red_pos2 z_index-1 position-absolute"></div>
         <img
           src={Game__logo}
-          alt=""
+          alt="Err"
           className="game__logo position-absolute opacity-50"></img>
 
-        <div className="container position-relative z_index1">
+        <div className="container position-relative z_index1 mb-5">
           <div className="box_mob z_index3 d-flex justify-content-end flex-column align-items-center text-center py-5 position-absolute d-xl-flex d-none">
             <Slider ref={myref} className="w-100 mb-5" {...settingSlide2}>
               {SliderSecondHero.map((data) => {
                 return (
-                  <div className="d-flex flex-column justify-content-center text-center   ">
+                  <div className="d-flex flex-column justify-content-center text-center ">
                     <div className="slidersec mb-5 pb-5">
                       <h4 className="text_head_slidersec">{data.heading}</h4>
                       <p
@@ -103,10 +105,10 @@ function Hero() {
               <div className="col-xxl-8 col-xl-7">
                 <h1 className="fs_8x5l fw-semibold ff_gilroy_semibold clr_light_grey mb-0">
                   A platform to secure your all digital assets.
-                </h1>
+                </h1>{" "}
                 <p
                   style={{ maxWidth: "648px", lineHeight: "175%" }}
-                  className="peragraph_common mt-lg-5 mt-sm-4 ">
+                  className="peragraph_common mt-lg-5 mt-sm-4 pe-lg-5 pe-xxl-0 ">
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                   irure dolor in reprehenderit in voluptate velit esse cillum
@@ -120,13 +122,13 @@ function Hero() {
                   <Slider ref={myref} className="w-100" {...settingSlide2}>
                     {SliderSecondHero.map((data) => {
                       return (
-                        <div className="d-flex flex-column justify-content-center text-center  ">
+                        <div className="d-flex flex-column justify-content-center text-center ">
                           <div className="slidersec mb-5 pb-5">
                             <h4 className="text_head_slidersec">
                               {data.heading}
                             </h4>
                             <p
-                              className="custom_p_width_slider_secondfs_xl fw-semibold ff_gilroy_semibold clr_slate_grey mx-auto fs_2x2l px-5  px-md-4 "
+                              className="custom_p_width_slider_secondfs_xl fw-semibold ff_gilroy_semibold clr_slate_grey mx-auto fs_2x2l px-5 px-md-4 "
                               style={{
                                 letterSpacing: "-4%",
                               }}>
@@ -138,7 +140,7 @@ function Hero() {
                     })}
                   </Slider>
                 </div>
-                <div className="Slider_mt_nagitive">
+                <div className="Slider_mt_nagitive pt-5 pt-md-0">
                   <div className="btnbox mb-3 d-flex position-relative z_index5 justify-content-center justify-content-sm-start gap-3">
                     <img
                       className="transition300"
@@ -146,14 +148,14 @@ function Hero() {
                         myref?.current?.slickPrev();
                       }}
                       src={Slidewrbtn}
-                      alt=""
+                      alt="Err"
                     />
                     <img
                       onClick={() => myref?.current?.slickNext()}
                       style={{ transform: "rotate(180deg)" }}
                       className="transition300"
                       src={Slidewrbtn}
-                      alt=""
+                      alt="Err"
                     />
                   </div>
                   <Slider
@@ -162,7 +164,7 @@ function Hero() {
                     {...settings}>
                     {SliderHero.map((data) => {
                       return (
-                        <div className="pe-1 d-flex justify-content-center">
+                        <div className="Slider pe-1 d-flex justify-content-center">
                           <div
                             onClick={() => {
                               setSliderBg(data.slidecount);
@@ -172,10 +174,10 @@ function Hero() {
                                 ? "SliderBoxActive"
                                 : ""
                             } `}>
-                            <div className="d-flex flex-column h-100 justify-content-between p-4  ">
+                            <div className="d-flex flex-column h-100 justify-content-between p-4 ">
                               <h2
                                 style={{ maxWidth: "109px" }}
-                                className={`text-wrap   fs_xl fw-semibold ff_gilroy_semibold ${
+                                className={`text-wrap fs_xl fw-semibold ff_gilroy_semibold ${
                                   sliderBg === data.slidecount
                                     ? "clr_white"
                                     : "clr_grey"
@@ -186,7 +188,7 @@ function Hero() {
                                 <img
                                   style={{ width: "18px", height: "18px" }}
                                   src={data.ArrowImg}
-                                  alt=""
+                                  alt="Err"
                                 />
                               </div>
                             </div>

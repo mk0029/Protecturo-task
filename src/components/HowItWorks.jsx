@@ -7,15 +7,14 @@ import buy from "../assets/img/svg/buy.svg";
 import squar from "../assets/img/svg/squares.svg";
 import line from "../assets/img/svg/Line 2.svg";
 import posLogo from "../assets/img/png/How__Works.png";
-
 function HowItWorks() {
   return (
     <>
-      <section id="control" className="py-md-5 py-4 my-md-5 position-relative">
+      <section id="control" className="py-5 my-xl-5 position-relative">
         <img
-          className=" pos_how_work_bottom position-absolute end-0 bottom-0 z_index0"
+          className="pos_how_work_bottom position-absolute end-0 bottom-0 z_index0 d-none d-md-flex"
           src={posLogo}
-          alt=""
+          alt="Err"
         />
         <div className="container position-relative z_index1">
           <div className="row flex-column-reverse flex-lg-row justify-content-lg-between justify-content-center align-items-center z_index1 position-relative">
@@ -45,10 +44,10 @@ function HowItWorks() {
                   Learn how does
                   <span className="d-lg-block">international eSIM work</span>
                 </h2>
-                <div className="row justify-content-between mt-4 mt-sm-0 Animate_hover_Parent_Second">
-                  <div className="col-sm-3 custom_margin_110 position-relative">
+                <div className="row justify-content-between mt-md-4 mt-sm-0 Animate_hover_Parent_Second">
+                  <div className="col-md-3 col-sm-6 pt-sm-4 pt-2 pt-lg-0 custom_margin_110 mt-4 position-relative">
                     <img
-                      className="position-absolute  ImageZpos Img_Aimate_hover d-none d-sm-flex"
+                      className="position-absolute ImageZpos d-none d-lg-flex"
                       src={line}
                       alt="img"
                     />
@@ -61,9 +60,9 @@ function HowItWorks() {
                       that your smartphone supports eSIM
                     </p>
                   </div>
-                  <div className="col-sm-3 mt-md-5 mt-4 position-relative">
+                  <div className="col-md-3 col-sm-6 pt-4 pt-lg-0 mt-lg-5 mt-2 position-relative">
                     <img
-                      className="position-absolute  ImageZpos2 Img_Aimate_hover d-none d-sm-flex"
+                      className="position-absolute ImageZpos2 d-none d-lg-flex"
                       src={line}
                       alt="img"
                     />
@@ -75,14 +74,10 @@ function HowItWorks() {
                       Your eSIM card to travel
                     </p>
                   </div>
-                  <div className="col-sm-3 custom_margin_110 mt-4 mt-sm-0 d-flex  ">
-                    <div className="d-flex flex-column justify-content-end h-100">
+                  <div className="col-md-3 col-sm-6 pt-4 pt-lg-0 custom_margin_110 mt-sm-4 mt-2 mt-sm-0 d-flex ">
+                    <div className="d-flex flex-column justify-content-center justify-content-lg-end h-100">
                       <span>
-                        <img
-                          className="mb-sm-4 mb-2 Img_Aimate_hover"
-                          src={squar}
-                          alt="img"
-                        />
+                        <img className="mb-sm-4 mb-2 " src={squar} alt="img" />
                       </span>
                       <h3 className="ff_gilroy_semibold fs_2x4l text-white mb-0">
                         Install the QR

@@ -26,22 +26,22 @@ export const SliderHero = [
     slidecount: "4",
   },
   {
-    heading: "Securepayments",
+    heading: "Secure payments",
     ArrowImg: SliderView,
     slidecount: "5",
   },
   {
-    heading: "Securepayments",
+    heading: "Secure payments",
     ArrowImg: SliderView,
     slidecount: "6",
   },
   {
-    heading: "Securepayments",
+    heading: "Secure payments",
     ArrowImg: SliderView,
     slidecount: "7",
   },
   {
-    heading: "Securepayments",
+    heading: "Secure payments",
     ArrowImg: SliderView,
     slidecount: "8",
   },
